@@ -91,6 +91,7 @@ a:hover {
 #contact {
     width: 400;
     text-align: center;
+    text-wrap: balance;
     margin: 0;
     padding: 0;
 
@@ -102,7 +103,7 @@ a:hover {
 }
 
 #contact ul {
+    /* align-items: center; */
     line-height: 1;
     list-style-type: none;
-    justify-items: center;
 }
