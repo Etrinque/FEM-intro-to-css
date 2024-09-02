@@ -107,3 +107,10 @@ a:hover {
     line-height: 1;
     list-style-type: none;
 }
+
+#nav-bar {
+    box-sizing: 300, 200;
+    border: 10,10;
+}
+
+#nav-bar 
