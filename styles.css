@@ -1,6 +1,6 @@
 /* Color Theme Swatches in Hex */
 .Spring-ocean-1-hex { color: #66CCC9; }
-.Spring-ocean-2-hex { color: #1F9995; }
+.Spring-ocean-2-hex { color: #17716e; }
 .Spring-ocean-3-hex { color: #9AFFC2; }
 .Spring-ocean-4-hex { color: #FFD9E4; }
 .Spring-ocean-5-hex { color: #CC66B7; }
@@ -66,7 +66,9 @@ a:hover {
 /* intro styles */
 
 #intro {
-    padding-bottom: 10rem;
+    padding: 4rem 1rem 10rem 1rem;
+    max-width: 1200px;
+    margin: 0;
 }
 
 #intro p {
@@ -79,36 +81,48 @@ a:hover {
     text-align: left;
     font-family: var(--mono);
 }
+
 .name span {
     font-family: var(--sans);
     font-size: 4rem;
     color: var(--aqua);
     display: block;
 }
+
 #intro h2 {
     font-size: 4rem;
     font-weight: normal;
 }
 
-#contact {
-    width: 400;
-    text-align: center;
-    text-wrap: balance;
-    margin: 0;
-    padding: 0;
+.div-gradient {
+    background: linear-gradient(90deg, var(--aqua) 0%, var(--hotmag) 100%);
+    height: 3px;
+}
 
+/* contact section */
+.contact-div {
+    background-color: var(--dkblue);
+}
+
+#contact {
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    line-height: 1;
+    margin: auto;
+    padding: 3rem 0;
 }
 
 #contact p:last-child {
-    text-decoration: underline;
     margin-top: 3rem;
 }
 
 #contact ul {
-    /* align-items: center; */
     line-height: 1;
     list-style-type: none;
 }
+
+/* nav-bar style */
 
 #nav {
     box-sizing: 300, 200;
@@ -162,8 +176,10 @@ a:hover {
 
 .button {
     background-color: var(--magenta);
-    padding: 0.25rem;
-    border-radius: 5px
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-family: var(--mono);
+    color: var(--white)
 }
 
 .button:hover {
@@ -183,3 +199,4 @@ a:hover {
         margin-right: auto;
     }
 }
+
