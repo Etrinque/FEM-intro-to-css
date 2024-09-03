@@ -116,7 +116,7 @@ a:hover {
     padding: 1rem;
 }
 
-#nav h1 a {
+#nav h1 {
     font-family: var(--sans);
 }
 
