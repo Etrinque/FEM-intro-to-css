@@ -72,9 +72,11 @@ a:hover {
 #intro p {
     font-size: 1rem;
     line-height: 1.5;
+    /* text-align: center; */
 }
 
 #intro .name {
+    text-align: left;
     font-family: var(--mono);
 }
 .name span {
@@ -117,7 +119,14 @@ a:hover {
 }
 
 #nav h1 {
+    color: var(--hotmag);
     font-family: var(--sans);
+}
+
+#nav a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
 }
 
 #nav ul {
@@ -137,12 +146,6 @@ a:hover {
     /* float: center; */
 }
 
-#nav a {
-    color: #a896e0;
-    text-decoration: none;
-    display: block;
-}
-
 #nav li:first-child {
     flex-basis: 100%;
     text-align: center;
@@ -152,3 +155,31 @@ a:hover {
     background-color: #ffffff;
 }
 
+#nav [class*="fa-"] {
+    font-size: 150%;
+    color: var(--aqua);
+}
+
+.button {
+    background-color: var(--magenta);
+    padding: 0.25rem;
+    border-radius: 5px
+}
+
+.button:hover {
+    color: white;
+    background-color: var(--hotmag);
+}
+
+@media (min-width: 850px) {
+    #nav {
+        max-width: 1200px;
+        margin: 0 auto;
+
+    }
+    #nav li:first-child {
+        flex-basis: auto;
+        text-align: left;
+        margin-right: auto;
+    }
+}
