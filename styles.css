@@ -212,3 +212,13 @@ a:hover {
     }
 }
 
+#resume {
+    width: 850;
+    height: 1200;
+}
+
+#resume [class*="fa-"] {
+    font-size: 150%;
+    color: var(--aqua);
+    padding: .5rem;
+}
